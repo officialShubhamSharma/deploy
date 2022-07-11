@@ -13,7 +13,7 @@ public class SocialbackendApplication extends SpringBootServletInitializer{
 	}
 	@Override
         protected SpringApplicationBuilder configure(SpringApplicationBuilder builder){
-        return builder.sources(ScimApplication.class);
+        return builder.sources(SocialbackendApplication.class);
         }
 
 }
